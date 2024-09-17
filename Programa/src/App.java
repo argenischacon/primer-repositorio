@@ -12,6 +12,8 @@ public class App {
         operacion = "suma";
        }else if(operador == '-'){
         operacion = "resta";
+       }else if(operador == '/'){
+        operacion = "division";
        }
 
        JOptionPane.showMessageDialog(null, "Operacion: "+operacion+"\nEl resultado es: "+ operarAritmeticamente(a, operador, b),  "Resultado", JOptionPane.INFORMATION_MESSAGE);
